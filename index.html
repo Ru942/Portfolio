@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section with Background Video -->
+    <header class="hero-section">
+        <video autoplay muted loop id="bg-video">
+            <source src="images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Hello, I'm Rupesh K R</h1>
+            <p>Android Developer</p>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="images/python (1).png" alt="Python">
+                <p>Python</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/html-5 (1).png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/css-3 (1).png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/js (1).png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/sql (1).png" alt="SQL Server">
+                <p>SQL Server</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/api (1).png" alt="API'S">
+                <p>API keys</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/Rupesh-fotor-20240831121144.png" alt="Profile Image">
+            <div class="about-text">
+                <p>I am a proficient Android developer specializing in API integration and database management. I excel in seamlessly integrating APIs and managing databases, particularly SQLite, to create robust and scalable applications. My expertise extends across the Android framework, ensuring high-quality, intuitive user experiences and optimized performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+
+        <!-- Projects in Grid View -->
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="images/Add a heading.png" alt="Event Management System">
+                <h3>Event Management System</h3>
+                <p>The core objective of this project is to streamline the process of booking meeting rooms within an organization. It provides a sophisticated platform for users to efficiently reserve and manage meeting spaces, enhancing overall operational efficiency. The system leverages advanced scheduling algorithms and user-friendly interfaces to facilitate seamless room bookings, ensuring that all organizational meetings are effectively coordinated and managed. It also includes real-time availability tracking and conflict resolution to avoid double bookings and ensure optimal resource usage.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/Text Emtion Classification using DNN.png" alt="Text Emotion Classification using DNN">
+                <h3>Text Emotion Classification using DNN</h3>
+                <p>This project aims to extract textual data from diverse feed content and classify the underlying emotions utilizing advanced Deep Neural Network architectures. By leveraging state-of-the-art natural language processing techniques, the system enhances sentiment analysis capabilities, facilitating nuanced understanding of user sentiments and emotional states. This innovative approach not only streamlines data interpretation but also contributes to more empathetic user interactions. It further enables businesses to tailor their responses, improving customer satisfaction and engagement.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="video/e2cb4d9b-3fff-40a0-b057-dd98650c6326.gif" alt="Project 3">
+                <h3>Weather Perdiction using API's</h3>
+                <p>This project analyzes climate changes by tracking temperature fluctuations over time, providing insights into global warming patterns and environmental impacts. By leveraging historical weather data and predictive algorithms, the system identifies trends in temperature shifts across different regions. The project is designed to enhance understanding of climate variability, helping decision-makers take informed action on climate-related challenges. It also features interactive data visualization, making complex environmental information more accessible and easier to interpret. The system supports real-time data integration, allowing continuous monitoring of current climate conditions. Users can input parameters such as longitude and latitude through an API, which processes the data to offer detailed climate insights and predictions specific to particular locations.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="video/109f86b5-ade0-4777-884a-52cfb7e64a4d.gif" alt="Project 4">
+                <h3>Database handling using CRUD operations</h3>
+                <p>This project is designed for robust database management, offering comprehensive CRUD operations—create, read, update, and delete—on stored data. Developed using .NET MAUI with seamless SQL Server integration, it ensures efficient data storage, retrieval, and manipulation while maintaining high performance. The system features a user-friendly interface, facilitating smooth navigation and optimized data handling, making it ideal for managing information with precision and scalability. With support for multi-platform deployment, the application guarantees reliable operation across different devices and platforms, ensuring consistent user experience and functionality. This makes the project a powerful, versatile tool for building database-driven applications, providing users with the flexibility, accuracy, and performance needed to handle diverse data management tasks efficiently.</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="status"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rupesh K R. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
