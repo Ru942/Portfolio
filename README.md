@@ -16,7 +16,7 @@
 https://ru942.github.io/Portfolio/
 
 📂 **GitHub Repository:**
-[View Source Code](#)
+https://github.com/Ru942/Portfolio
 
 > Replace the `#` links above with your actual Vercel and GitHub URLs.
 
